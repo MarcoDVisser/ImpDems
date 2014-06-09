@@ -1,0 +1,63 @@
+<html> 
+<!-- main -->
+<!-- Here you can include --> 
+<!-- A title -->
+<!-- A header -->
+<!-- A css style -->
+<!-- Or you can deine style within <head> here-->
+
+<!--################### Initial settings and style ########################  -->
+
+<head> <title> Impress Title </title>
+Impress talks templates and demos
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" /> 
+</head> 
+	
+	    <!-- include "impress-not-supported" for fallback message-->
+		<body class="impress-not-supported">
+		
+  <!-- ################# Start Presentation ###################  -->
+		
+	<div id = "impress">
+	
+ 	 <!-- ################# Start slide ###################  -->
+	    <div id="start" class="step" >
+              <p>A gitHib repro with impress examples</p>
+	      <br>
+	      <p> Marco D. Visser</p>
+                <p>Impress.js </p>
+                <p class='hint_text'>Press <em>Spacebar</em> or Tab To Get 		Started</p>
+            </div>
+
+ 	 <!-- ################# Slide 1 ###################  -->
+            <div id="slide1" class="step" data-x="-1200">
+
+	      <p> List of demo talks</p>
+	      <a href="./standardtemplate.html">Standard template</a>
+	      <a href="./cubetalk.html">Cube talk</a> 
+	      
+
+	    </div>
+            
+ 	
+  <!-- ################# END Presentation ###################  -->
+
+     <!-- fallback message-->
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by   		impress.js, so you are presented with a simplified version of this  		presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, 	   <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        
+	</div>
+	
+	   </div>
+
+	     <!-- Loading the impress scripts-->
+	 <script type="text/javascript" src="js/impress.js"></script>
+        <script type="text/javascript">impress().init();</script>
+	
+	</body>
+
+
+</html>
