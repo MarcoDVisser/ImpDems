@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* body details */
+         body{
+             width:1000px;
+                font-size: 36px;
+                font-family: 'Armata', sans-serif;
+				background: url(images/pt-1.png);
+				color: #eee;
+				text-shadow: 1px 1px 2px #000;
+            }
+
+            #start{
+                text-align:center;
+		width:1000px;
+		               
+            }
+
+
+            #overview{
+                width:2024px;
+		height:2024px;
+            }
+
+	    .hint_text{
+				margin-top: 120px;
+                font-size:30px;
+                background-color:#282a2f;
+                padding:15px;
+				border: 1px solid #484d52;
+				border-radius: 5px;
+				font-size: 18px;
+				
+            }
+
+
+	      .step{
+                  text-align:center;
+		  	     height:800px;
+			     width:1000px;
+
+		opacity:0.25;
+		 background-color: rgba(0,0,0, 0.25);
+               
+            }
+
+
+	    .step.active {
+		opacity: 1;
+		    }
+
+            .fallback-message {
+               	color: #eee;
+                line-height: 1.3;
+                width: 780px;
+                padding: 10px 10px 0;
+                margin: 20px auto;
+                border: 1px solid #E4C652;
+                border-radius: 10px;
+              
+            }
+
+            .fallback-message p {
+                margin-bottom: 10px;
+            }
+
+            .impress-supported .fallback-message {
+                display: none;
+            }
+			em{
+				font-style: normal;
+				border-bottom: 1px solid #484d52;
+				padding-bottom: 2px;
+				color: #d5a830;
+			}
+
+
+
+			.introwrapper {
+			    background:transparent url(images/snakes-and-ladders.jpg)	                 no-repeat  center center;
+			    text-shadow: 0.1em 0.1em 0.2em #0000000;
+
+
+			}
+
+			.textboxdark {
+					background-color: rgba(0,0,0, 0.75);
+
+			}
